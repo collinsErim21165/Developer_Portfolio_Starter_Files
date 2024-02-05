@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="closeSidebar()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                <path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"></path>
+                </svg></li>
+            <li class="link"><a href="#">Articles</a></li>
+            <li  class="link"><a href="#">Chats</a></li>
+            <li  class="link"><a href="#">Awards</a></li>
+            <li  class="link"><a href="#">About</a></li>
+            <li><a href="#"><button>Get in touch</button></a></li>
+        </ul>
+        <ul>
+            <li><p>Jonathan Specter</p></li>
+            <li id="mobile" class="link"><a href="#">Articles</a></li>
+            <li id="mobile"  class="link"><a href="#">Chats</a></li>
+            <li id="mobile"  class="link"><a href="#">Awards</a></li>
+            <li id="mobile" class="link"><a href="#">About</a></li>
+            <li id="mobile"><a href="#"><button>Get in touch</button></a></li>
+            <li class="hamburger" onclick="openSidebar()"><svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z" fill="white"/>
+                </svg></li>
+        </ul>
+    </nav>
+
+
+    <div class="line1">
+        <h1>Helping Companies build <br> better, scalable software.</h1>
+        <p>Award-winning web Developer and author, with over 15+ years of work <br> experience with Furtune 500 companies like Apple,Google,Facebook and <br> more.</p>
+    </div>
+
+    <div class="mobile-view">
+        <h1>Helping Companies <br> build better, scalable <br> software.</h1>
+        <p>Award-winning web Developer and author, <br> with over 15+ years of work experience <br> with Furtune 500 companies like Apple, <br> Google,Facebook and  more.</p>
+    </div>
+
+    <div class="line2">
+       <img src="./Developer Portfolio Starter Files/Assets/Logos/Walmart.svg" alt="">
+       <img src="./Developer Portfolio Starter Files/Assets/Logos/JP Morgan.svg" alt="">
+       <img src="./Developer Portfolio Starter Files/Assets/Logos/Visa.svg" alt="">
+       <img src="./Developer Portfolio Starter Files/Assets/Logos/Tinder.svg" alt="">
+       <img src="./Developer Portfolio Starter Files/Assets/Logos/Samsung.svg" alt="">
+       <img src="./Developer Portfolio Starter Files/Assets/Logos/Verizon.svg" alt="">
+    </div>
+
+    <div class="mobile-view2">
+        <div class="img-logo">
+            <img src="./Developer Portfolio Starter Files/Assets/Logos/Walmart.svg" alt="">
+            <img src="./Developer Portfolio Starter Files/Assets/Logos/JP Morgan.svg" alt="">
+        </div>
+        <div class="img-logo">
+            <img src="./Developer Portfolio Starter Files/Assets/Logos/Visa.svg" alt="">
+            <img src="./Developer Portfolio Starter Files/Assets/Logos/Tinder.svg" alt="">
+        </div>
+        <div class="img-logo">
+            <img src="./Developer Portfolio Starter Files/Assets/Logos/Samsung.svg" alt="">
+            <img src="./Developer Portfolio Starter Files/Assets/Logos/Verizon.svg" alt="">
+        </div>
+     </div>
+
+    <div class="line3">
+        <div class="left">
+            <img src="./Developer Portfolio Starter Files/Assets/Spense.png" alt="">
+            <h2>Spense.Com &#10230</h2>
+            <p> Rethinking the way writings get paid, an open-source platform <br>
+                 designed to help writers focus more on  writing, and less on <br> 
+                 when and how they'll get paid. Project in collaboration with <br> 
+                 codewell.cc  </p>
+        </div>
+        <div class="right">
+            <img src="./Developer Portfolio Starter Files/Assets/YelpCamp.png" alt="">
+            <h2>YelpCamp.com &#10230 </h2>
+            <p>Allowing backpack travelers to perfectly plan there trip <br>
+                 through an open source platform similar to the TripAdvisor. with <br>
+                  over 1m  MAU, YelpCamp has been the crowd's favorite in <br> 2021.  </p>
+        </div>
+    </div>
+
+    <div class="mobile-view3">
+        <div class="left">
+            <img src="./Developer Portfolio Starter Files/Assets/Spense.png" alt="">
+            <h2>Spense.Com &#10230</h2>
+            <p> Rethinking the way writings get paid, an open- <br class="break"> source platform 
+                 designed to help writers <br class="break"> focus more on  writing, and less on  
+                 when and <br class="break"> how they'll get paid. Project in collaboration <br class="break"> with 
+                 codewell.cc  </p>
+        </div>
+        <div class="right">
+            <img src="./Developer Portfolio Starter Files/Assets/YelpCamp.png" alt="">
+            <h2>YelpCamp.com &#10230 </h2>
+            <p>Allowing backpack travelers to perfectly plan <br> there trip
+                 through an open source platform <br> similar to the TripAdvisor. with 
+                  over 1m  MAU, <br class="break"> YelpCamp has been the crowd's favorite in <br class="break"> 2021.  </p>
+        </div>
+    </div>
+
+    <div class="line4">
+        <div class="left2">
+            <h2>A co-founder at one of the <br > world's largest communities</h2>
+            <p>The combined experience I have working at the top fortune <br  class="break2">
+            500 companies has allowed me to developer a skillset that <br  class="break2">
+            helps me in just development, but in every aspect of my <br class="break2"> business.</p>
+            <p>I'm proud to announce that I am now working at one of the <br class="break2"> 
+            world's communities teaching young minds about how <br class="break2"> to sell yourself as a developer and open them to a whole new <br class="break2"> world of opportunities. </p>
+        </div>
+        <div class="right2">
+            <p>As a developer, you have everything available to you and all <br class="break2">
+               that's holding you back is yourself.</p>
+            <p>A quote I live by perfectly illustrates what I mean.</p>
+            <p>"How big would you dream, if you knew you wouldn't fail?"<br class="break2">
+               You've already gone through the hardest part being a <br class="break2"> developer, it's time to elevate your skills and become a leader <br class="break2"> 
+               in something you're passonate about. </p>
+            <p>I'm happy to chat over coffee some time about how i can help <br class="break2"> Your company</p>
+        </div>
+    </div>
+
+    <div class="line5">
+        <h2>Interested in working with me?</h2>
+        <p>I'm active on all social media platforms listed below but you <br class="break2"> can also give me your Email and I will get back to you within <br class="break2" id="break2"> 24-48  hours. </p>
+        <button>Get in touch</button>
+    </div>
+
+    <footer>
+        <p>Jonathan Specter</p>
+        <div class="icons">
+            <img src="./Developer Portfolio Starter Files/Assets/Social Icons/Twitter.svg" alt="">
+            <img src="./Developer Portfolio Starter Files/Assets/Social Icons/LinkedIn.svg" alt="">
+            <img src="./Developer Portfolio Starter Files/Assets/Social Icons/Github.svg" alt="">
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
